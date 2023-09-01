@@ -5,25 +5,14 @@ public enum StudyProfile {
     PROGRAMMER("Программист"),
     DRIVER("Водитель"),
     TEACHER("Учитель");
-    String profileName;
+    private final String profileName;
 
+
+    private StudyProfile(String profileName) {
+        this.profileName = profileName;
+    }
 
     public String getProfileName() {
-        return profileName;
-    }
-
-    StudyProfile(String profileName) {
-        this.profileName = profileName;
-    }
-
-    @Override
-    public String toString() {
-        return "StudyProfile{" +
-                "profileName='" + profileName + '\'' +
-                '}';
-    }
-
-    public void setProfileName(String profileName) {
-        this.profileName = profileName;
+        return this.profileName;
     }
 }
