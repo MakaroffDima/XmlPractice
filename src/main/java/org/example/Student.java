@@ -1,9 +1,15 @@
 package org.example;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Student {
+    @SerializedName("studentNameFull")
     String fullName;
+    @SerializedName("universityId")
     String universityId;
+    @SerializedName("courseNumber")
     int currentCourseNumber;
+    @SerializedName("avgExamScore")
     float avgExamScore;
 
     public Student() {
