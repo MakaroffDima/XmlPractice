@@ -1,7 +1,9 @@
-package org.example;
+package org.example.comparator;
 
 
-public class UniversityYofComparator implements UniversityComparator{
+import org.example.model.University;
+
+public class UniversityYofComparator implements UniversityComparator {
 
     @Override
     public int compare(University o1, University o2) {

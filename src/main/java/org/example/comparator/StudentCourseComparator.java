@@ -1,4 +1,6 @@
-package org.example;
+package org.example.comparator;
+
+import org.example.model.Student;
 
 public class StudentCourseComparator implements StudentComparator {
 

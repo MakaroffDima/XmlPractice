@@ -1,8 +1,9 @@
-package org.example;
+package org.example.comparator;
 
 import org.apache.commons.lang3.StringUtils;
+import org.example.model.Student;
 
-public class StudentUniversityIdComparator implements StudentComparator{
+public class StudentUniversityIdComparator implements StudentComparator {
 
     @Override
     public int compare(Student o1, Student o2) {

@@ -1,8 +1,9 @@
-package org.example;
+package org.example.comparator;
 
 import org.apache.commons.lang3.StringUtils;
+import org.example.model.University;
 
-public class UniversityFullNameComparator implements  UniversityComparator{
+public class UniversityFullNameComparator implements UniversityComparator {
 
     @Override
 

@@ -1,4 +1,8 @@
-package org.example;
+package org.example.utils;
+
+import org.example.comparator.*;
+import org.example.enums.StudentComparatorType;
+import org.example.enums.UniversityComparatorType;
 
 public class ComparatorUtil {
     private ComparatorUtil() {
