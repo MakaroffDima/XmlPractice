@@ -1141,3 +1141,1028 @@
   <message>Application finished</message>
 </record>
 </log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-10-09T17:51:17.150378500Z</date>
+  <millis>1696873877150</millis>
+  <nanos>378500</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Launch</logger>
+  <level>INFO</level>
+  <class>org.example.Launch</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application start, Logger configured</message>
+</record>
+<record>
+  <date>2023-10-09T17:51:17.195967600Z</date>
+  <millis>1696873877195</millis>
+  <nanos>967600</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.excel.XlsReader</logger>
+  <level>INFO</level>
+  <class>org.example.excel.XlsReader</class>
+  <method>readFileUniversity</method>
+  <thread>1</thread>
+  <message>Excel file reading started</message>
+</record>
+<record>
+  <date>2023-10-09T17:51:17.668800600Z</date>
+  <millis>1696873877668</millis>
+  <nanos>800600</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.excel.XlsReader</logger>
+  <level>INFO</level>
+  <class>org.example.excel.XlsReader</class>
+  <method>readFileStudent</method>
+  <thread>1</thread>
+  <message>Excel file reading started</message>
+</record>
+<record>
+  <date>2023-10-09T17:51:17.708103200Z</date>
+  <millis>1696873877708</millis>
+  <nanos>103200</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.utils.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module active</message>
+</record>
+<record>
+  <date>2023-10-09T17:51:17.714377500Z</date>
+  <millis>1696873877714</millis>
+  <nanos>377500</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.utils.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished work with 6 statistical objects</message>
+</record>
+<record>
+  <date>2023-10-09T17:51:17.715380700Z</date>
+  <millis>1696873877715</millis>
+  <nanos>380700</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.excel.XlsWriter</logger>
+  <level>INFO</level>
+  <class>org.example.excel.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel file writing started</message>
+</record>
+<record>
+  <date>2023-10-09T17:51:17.843258300Z</date>
+  <millis>1696873877843</millis>
+  <nanos>258300</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.excel.XmlWriteOperation</logger>
+  <level>INFO</level>
+  <class>org.example.excel.XmlWriteOperation</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling is started</message>
+</record>
+<record>
+  <date>2023-10-09T17:51:17.986662600Z</date>
+  <millis>1696873877986</millis>
+  <nanos>662600</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.excel.XmlWriteOperation</logger>
+  <level>SEVERE</level>
+  <class>org.example.excel.XmlWriteOperation</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling  is failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: xmlReqs\infoReq1696873877971.xml (Системе не удается найти указанный путь)]</message>
+    <frame>
+      <class>javax.xml.bind.helpers.AbstractMarshallerImpl</class>
+      <method>marshal</method>
+      <line>93</line>
+    </frame>
+    <frame>
+      <class>org.example.excel.XmlWriteOperation</class>
+      <method>generateXmlReq</method>
+      <line>42</line>
+    </frame>
+    <frame>
+      <class>org.example.Launch</class>
+      <method>main</method>
+      <line>63</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-10-09T17:51:17.986662600Z</date>
+  <millis>1696873877986</millis>
+  <nanos>662600</nanos>
+  <sequence>8</sequence>
+  <logger>org.example.excel.JsonWriteOperation</logger>
+  <level>INFO</level>
+  <class>org.example.excel.JsonWriteOperation</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing operation started</message>
+</record>
+<record>
+  <date>2023-10-09T17:51:18.002880800Z</date>
+  <millis>1696873878002</millis>
+  <nanos>880800</nanos>
+  <sequence>9</sequence>
+  <logger>org.example.excel.JsonWriteOperation</logger>
+  <level>SEVERE</level>
+  <class>org.example.excel.JsonWriteOperation</class>
+  <method>writeStudents</method>
+  <thread>1</thread>
+  <message>Students JSON writing operation failed</message>
+  <exception>
+    <message>java.io.FileNotFoundException: jsonReqs\students1696873877843.json (Системе не удается найти указанный путь)</message>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>open</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>236</line>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>124</line>
+    </frame>
+    <frame>
+      <class>org.example.excel.JsonWriteOperation</class>
+      <method>writeStudents</method>
+      <line>44</line>
+    </frame>
+    <frame>
+      <class>org.example.excel.JsonWriteOperation</class>
+      <method>writeJsonReq</method>
+      <line>33</line>
+    </frame>
+    <frame>
+      <class>org.example.Launch</class>
+      <method>main</method>
+      <line>64</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-10-09T17:51:18.018979Z</date>
+  <millis>1696873878018</millis>
+  <nanos>979000</nanos>
+  <sequence>10</sequence>
+  <logger>org.example.excel.JsonWriteOperation</logger>
+  <level>SEVERE</level>
+  <class>org.example.excel.JsonWriteOperation</class>
+  <method>writeUniversities</method>
+  <thread>1</thread>
+  <message>Universities JSON writing operation failed</message>
+  <exception>
+    <message>java.io.FileNotFoundException: jsonReqs\universities1696873877843.json (Системе не удается найти указанный путь)</message>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>open</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>236</line>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>124</line>
+    </frame>
+    <frame>
+      <class>org.example.excel.JsonWriteOperation</class>
+      <method>writeUniversities</method>
+      <line>55</line>
+    </frame>
+    <frame>
+      <class>org.example.excel.JsonWriteOperation</class>
+      <method>writeJsonReq</method>
+      <line>34</line>
+    </frame>
+    <frame>
+      <class>org.example.Launch</class>
+      <method>main</method>
+      <line>64</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-10-09T17:51:18.018979Z</date>
+  <millis>1696873878018</millis>
+  <nanos>979000</nanos>
+  <sequence>11</sequence>
+  <logger>org.example.excel.JsonWriteOperation</logger>
+  <level>SEVERE</level>
+  <class>org.example.excel.JsonWriteOperation</class>
+  <method>writeStatisticsList</method>
+  <thread>1</thread>
+  <message>Statistics JSON writing operation failed</message>
+  <exception>
+    <message>java.io.FileNotFoundException: jsonReqs\statistics1696873877843.json (Системе не удается найти указанный путь)</message>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>open</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>236</line>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>124</line>
+    </frame>
+    <frame>
+      <class>org.example.excel.JsonWriteOperation</class>
+      <method>writeStatisticsList</method>
+      <line>66</line>
+    </frame>
+    <frame>
+      <class>org.example.excel.JsonWriteOperation</class>
+      <method>writeJsonReq</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>org.example.Launch</class>
+      <method>main</method>
+      <line>64</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-10-09T17:51:18.018979Z</date>
+  <millis>1696873878018</millis>
+  <nanos>979000</nanos>
+  <sequence>12</sequence>
+  <logger>org.example.excel.JsonWriteOperation</logger>
+  <level>INFO</level>
+  <class>org.example.excel.JsonWriteOperation</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing operation finished successfully</message>
+</record>
+<record>
+  <date>2023-10-09T17:51:18.018979Z</date>
+  <millis>1696873878018</millis>
+  <nanos>979000</nanos>
+  <sequence>13</sequence>
+  <logger>org.example.Launch</logger>
+  <level>INFO</level>
+  <class>org.example.Launch</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-10-09T17:51:50.104818800Z</date>
+  <millis>1696873910104</millis>
+  <nanos>818800</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Launch</logger>
+  <level>INFO</level>
+  <class>org.example.Launch</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application start, Logger configured</message>
+</record>
+<record>
+  <date>2023-10-09T17:51:50.152904800Z</date>
+  <millis>1696873910152</millis>
+  <nanos>904800</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.excel.XlsReader</logger>
+  <level>INFO</level>
+  <class>org.example.excel.XlsReader</class>
+  <method>readFileUniversity</method>
+  <thread>1</thread>
+  <message>Excel file reading started</message>
+</record>
+<record>
+  <date>2023-10-09T17:51:50.644394400Z</date>
+  <millis>1696873910644</millis>
+  <nanos>394400</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.excel.XlsReader</logger>
+  <level>INFO</level>
+  <class>org.example.excel.XlsReader</class>
+  <method>readFileStudent</method>
+  <thread>1</thread>
+  <message>Excel file reading started</message>
+</record>
+<record>
+  <date>2023-10-09T17:51:50.683606100Z</date>
+  <millis>1696873910683</millis>
+  <nanos>606100</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.utils.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module active</message>
+</record>
+<record>
+  <date>2023-10-09T17:51:50.690036900Z</date>
+  <millis>1696873910690</millis>
+  <nanos>36900</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.utils.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished work with 6 statistical objects</message>
+</record>
+<record>
+  <date>2023-10-09T17:51:50.691038800Z</date>
+  <millis>1696873910691</millis>
+  <nanos>38800</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.excel.XlsWriter</logger>
+  <level>INFO</level>
+  <class>org.example.excel.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel file writing started</message>
+</record>
+<record>
+  <date>2023-10-09T17:51:50.832905500Z</date>
+  <millis>1696873910832</millis>
+  <nanos>905500</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.excel.XmlWriteOperation</logger>
+  <level>INFO</level>
+  <class>org.example.excel.XmlWriteOperation</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling is started</message>
+</record>
+<record>
+  <date>2023-10-09T17:51:50.965077800Z</date>
+  <millis>1696873910965</millis>
+  <nanos>77800</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.excel.XmlWriteOperation</logger>
+  <level>SEVERE</level>
+  <class>org.example.excel.XmlWriteOperation</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling  is failed</message>
+  <exception>
+    <message>javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: xmlReqs\infoReq1696873910962.xml (Системе не удается найти указанный путь)]</message>
+    <frame>
+      <class>javax.xml.bind.helpers.AbstractMarshallerImpl</class>
+      <method>marshal</method>
+      <line>93</line>
+    </frame>
+    <frame>
+      <class>org.example.excel.XmlWriteOperation</class>
+      <method>generateXmlReq</method>
+      <line>42</line>
+    </frame>
+    <frame>
+      <class>org.example.Launch</class>
+      <method>main</method>
+      <line>63</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-10-09T17:51:50.967084100Z</date>
+  <millis>1696873910967</millis>
+  <nanos>84100</nanos>
+  <sequence>8</sequence>
+  <logger>org.example.excel.JsonWriteOperation</logger>
+  <level>INFO</level>
+  <class>org.example.excel.JsonWriteOperation</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing operation started</message>
+</record>
+<record>
+  <date>2023-10-09T17:51:50.995765100Z</date>
+  <millis>1696873910995</millis>
+  <nanos>765100</nanos>
+  <sequence>9</sequence>
+  <logger>org.example.excel.JsonWriteOperation</logger>
+  <level>SEVERE</level>
+  <class>org.example.excel.JsonWriteOperation</class>
+  <method>writeStudents</method>
+  <thread>1</thread>
+  <message>Students JSON writing operation failed</message>
+  <exception>
+    <message>java.io.FileNotFoundException: jsonReqs\students1696873910831.json (Системе не удается найти указанный путь)</message>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>open</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>236</line>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>124</line>
+    </frame>
+    <frame>
+      <class>org.example.excel.JsonWriteOperation</class>
+      <method>writeStudents</method>
+      <line>44</line>
+    </frame>
+    <frame>
+      <class>org.example.excel.JsonWriteOperation</class>
+      <method>writeJsonReq</method>
+      <line>33</line>
+    </frame>
+    <frame>
+      <class>org.example.Launch</class>
+      <method>main</method>
+      <line>64</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-10-09T17:51:50.997048700Z</date>
+  <millis>1696873910997</millis>
+  <nanos>48700</nanos>
+  <sequence>10</sequence>
+  <logger>org.example.excel.JsonWriteOperation</logger>
+  <level>SEVERE</level>
+  <class>org.example.excel.JsonWriteOperation</class>
+  <method>writeUniversities</method>
+  <thread>1</thread>
+  <message>Universities JSON writing operation failed</message>
+  <exception>
+    <message>java.io.FileNotFoundException: jsonReqs\universities1696873910831.json (Системе не удается найти указанный путь)</message>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>open</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>236</line>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>124</line>
+    </frame>
+    <frame>
+      <class>org.example.excel.JsonWriteOperation</class>
+      <method>writeUniversities</method>
+      <line>55</line>
+    </frame>
+    <frame>
+      <class>org.example.excel.JsonWriteOperation</class>
+      <method>writeJsonReq</method>
+      <line>34</line>
+    </frame>
+    <frame>
+      <class>org.example.Launch</class>
+      <method>main</method>
+      <line>64</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-10-09T17:51:50.999132200Z</date>
+  <millis>1696873910999</millis>
+  <nanos>132200</nanos>
+  <sequence>11</sequence>
+  <logger>org.example.excel.JsonWriteOperation</logger>
+  <level>SEVERE</level>
+  <class>org.example.excel.JsonWriteOperation</class>
+  <method>writeStatisticsList</method>
+  <thread>1</thread>
+  <message>Statistics JSON writing operation failed</message>
+  <exception>
+    <message>java.io.FileNotFoundException: jsonReqs\statistics1696873910831.json (Системе не удается найти указанный путь)</message>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>open</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>236</line>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>124</line>
+    </frame>
+    <frame>
+      <class>org.example.excel.JsonWriteOperation</class>
+      <method>writeStatisticsList</method>
+      <line>66</line>
+    </frame>
+    <frame>
+      <class>org.example.excel.JsonWriteOperation</class>
+      <method>writeJsonReq</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>org.example.Launch</class>
+      <method>main</method>
+      <line>64</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-10-09T17:51:51.000139700Z</date>
+  <millis>1696873911000</millis>
+  <nanos>139700</nanos>
+  <sequence>12</sequence>
+  <logger>org.example.excel.JsonWriteOperation</logger>
+  <level>INFO</level>
+  <class>org.example.excel.JsonWriteOperation</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing operation finished successfully</message>
+</record>
+<record>
+  <date>2023-10-09T17:51:51.000139700Z</date>
+  <millis>1696873911000</millis>
+  <nanos>139700</nanos>
+  <sequence>13</sequence>
+  <logger>org.example.Launch</logger>
+  <level>INFO</level>
+  <class>org.example.Launch</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-10-09T17:54:41.015904700Z</date>
+  <millis>1696874081015</millis>
+  <nanos>904700</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Launch</logger>
+  <level>INFO</level>
+  <class>org.example.Launch</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application start, Logger configured</message>
+</record>
+<record>
+  <date>2023-10-09T17:54:41.064341700Z</date>
+  <millis>1696874081064</millis>
+  <nanos>341700</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.excel.XlsReader</logger>
+  <level>INFO</level>
+  <class>org.example.excel.XlsReader</class>
+  <method>readFileUniversity</method>
+  <thread>1</thread>
+  <message>Excel file reading started</message>
+</record>
+<record>
+  <date>2023-10-09T17:54:41.547195600Z</date>
+  <millis>1696874081547</millis>
+  <nanos>195600</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.excel.XlsReader</logger>
+  <level>INFO</level>
+  <class>org.example.excel.XlsReader</class>
+  <method>readFileStudent</method>
+  <thread>1</thread>
+  <message>Excel file reading started</message>
+</record>
+<record>
+  <date>2023-10-09T17:54:41.587483500Z</date>
+  <millis>1696874081587</millis>
+  <nanos>483500</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.utils.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module active</message>
+</record>
+<record>
+  <date>2023-10-09T17:54:41.594634100Z</date>
+  <millis>1696874081594</millis>
+  <nanos>634100</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.utils.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished work with 6 statistical objects</message>
+</record>
+<record>
+  <date>2023-10-09T17:54:41.595632900Z</date>
+  <millis>1696874081595</millis>
+  <nanos>632900</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.excel.XlsWriter</logger>
+  <level>INFO</level>
+  <class>org.example.excel.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel file writing started</message>
+</record>
+<record>
+  <date>2023-10-09T17:54:41.737799900Z</date>
+  <millis>1696874081737</millis>
+  <nanos>799900</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.excel.XmlWriteOperation</logger>
+  <level>INFO</level>
+  <class>org.example.excel.XmlWriteOperation</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling is started</message>
+</record>
+<record>
+  <date>2023-10-09T17:54:41.889164300Z</date>
+  <millis>1696874081889</millis>
+  <nanos>164300</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.excel.XmlWriteOperation</logger>
+  <level>INFO</level>
+  <class>org.example.excel.XmlWriteOperation</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling is finished successfully</message>
+</record>
+<record>
+  <date>2023-10-09T17:54:41.891164700Z</date>
+  <millis>1696874081891</millis>
+  <nanos>164700</nanos>
+  <sequence>8</sequence>
+  <logger>org.example.excel.JsonWriteOperation</logger>
+  <level>INFO</level>
+  <class>org.example.excel.JsonWriteOperation</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing operation started</message>
+</record>
+<record>
+  <date>2023-10-09T17:54:41.915858200Z</date>
+  <millis>1696874081915</millis>
+  <nanos>858200</nanos>
+  <sequence>9</sequence>
+  <logger>org.example.excel.JsonWriteOperation</logger>
+  <level>SEVERE</level>
+  <class>org.example.excel.JsonWriteOperation</class>
+  <method>writeStudents</method>
+  <thread>1</thread>
+  <message>Students JSON writing operation failed</message>
+  <exception>
+    <message>java.io.FileNotFoundException: jsonReqs\students1696874081736.json (Системе не удается найти указанный путь)</message>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>open</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>236</line>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>124</line>
+    </frame>
+    <frame>
+      <class>org.example.excel.JsonWriteOperation</class>
+      <method>writeStudents</method>
+      <line>44</line>
+    </frame>
+    <frame>
+      <class>org.example.excel.JsonWriteOperation</class>
+      <method>writeJsonReq</method>
+      <line>33</line>
+    </frame>
+    <frame>
+      <class>org.example.Launch</class>
+      <method>main</method>
+      <line>64</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-10-09T17:54:41.917894600Z</date>
+  <millis>1696874081917</millis>
+  <nanos>894600</nanos>
+  <sequence>10</sequence>
+  <logger>org.example.excel.JsonWriteOperation</logger>
+  <level>SEVERE</level>
+  <class>org.example.excel.JsonWriteOperation</class>
+  <method>writeUniversities</method>
+  <thread>1</thread>
+  <message>Universities JSON writing operation failed</message>
+  <exception>
+    <message>java.io.FileNotFoundException: jsonReqs\universities1696874081736.json (Системе не удается найти указанный путь)</message>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>open</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>236</line>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>124</line>
+    </frame>
+    <frame>
+      <class>org.example.excel.JsonWriteOperation</class>
+      <method>writeUniversities</method>
+      <line>55</line>
+    </frame>
+    <frame>
+      <class>org.example.excel.JsonWriteOperation</class>
+      <method>writeJsonReq</method>
+      <line>34</line>
+    </frame>
+    <frame>
+      <class>org.example.Launch</class>
+      <method>main</method>
+      <line>64</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-10-09T17:54:41.919900400Z</date>
+  <millis>1696874081919</millis>
+  <nanos>900400</nanos>
+  <sequence>11</sequence>
+  <logger>org.example.excel.JsonWriteOperation</logger>
+  <level>SEVERE</level>
+  <class>org.example.excel.JsonWriteOperation</class>
+  <method>writeStatisticsList</method>
+  <thread>1</thread>
+  <message>Statistics JSON writing operation failed</message>
+  <exception>
+    <message>java.io.FileNotFoundException: jsonReqs\statistics1696874081736.json (Системе не удается найти указанный путь)</message>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>open</method>
+      <line>295</line>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>236</line>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>124</line>
+    </frame>
+    <frame>
+      <class>org.example.excel.JsonWriteOperation</class>
+      <method>writeStatisticsList</method>
+      <line>66</line>
+    </frame>
+    <frame>
+      <class>org.example.excel.JsonWriteOperation</class>
+      <method>writeJsonReq</method>
+      <line>35</line>
+    </frame>
+    <frame>
+      <class>org.example.Launch</class>
+      <method>main</method>
+      <line>64</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-10-09T17:54:41.919900400Z</date>
+  <millis>1696874081919</millis>
+  <nanos>900400</nanos>
+  <sequence>12</sequence>
+  <logger>org.example.excel.JsonWriteOperation</logger>
+  <level>INFO</level>
+  <class>org.example.excel.JsonWriteOperation</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing operation finished successfully</message>
+</record>
+<record>
+  <date>2023-10-09T17:54:41.920896800Z</date>
+  <millis>1696874081920</millis>
+  <nanos>896800</nanos>
+  <sequence>13</sequence>
+  <logger>org.example.Launch</logger>
+  <level>INFO</level>
+  <class>org.example.Launch</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-10-09T17:56:01.193089900Z</date>
+  <millis>1696874161193</millis>
+  <nanos>89900</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Launch</logger>
+  <level>INFO</level>
+  <class>org.example.Launch</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application start, Logger configured</message>
+</record>
+<record>
+  <date>2023-10-09T17:56:01.240858500Z</date>
+  <millis>1696874161240</millis>
+  <nanos>858500</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.excel.XlsReader</logger>
+  <level>INFO</level>
+  <class>org.example.excel.XlsReader</class>
+  <method>readFileUniversity</method>
+  <thread>1</thread>
+  <message>Excel file reading started</message>
+</record>
+<record>
+  <date>2023-10-09T17:56:01.722161900Z</date>
+  <millis>1696874161722</millis>
+  <nanos>161900</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.excel.XlsReader</logger>
+  <level>INFO</level>
+  <class>org.example.excel.XlsReader</class>
+  <method>readFileStudent</method>
+  <thread>1</thread>
+  <message>Excel file reading started</message>
+</record>
+<record>
+  <date>2023-10-09T17:56:01.762583600Z</date>
+  <millis>1696874161762</millis>
+  <nanos>583600</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.utils.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module active</message>
+</record>
+<record>
+  <date>2023-10-09T17:56:01.769890800Z</date>
+  <millis>1696874161769</millis>
+  <nanos>890800</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.utils.StatisticsUtil</logger>
+  <level>INFO</level>
+  <class>org.example.utils.StatisticsUtil</class>
+  <method>createStatistics</method>
+  <thread>1</thread>
+  <message>Statistics module finished work with 6 statistical objects</message>
+</record>
+<record>
+  <date>2023-10-09T17:56:01.770907100Z</date>
+  <millis>1696874161770</millis>
+  <nanos>907100</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.excel.XlsWriter</logger>
+  <level>INFO</level>
+  <class>org.example.excel.XlsWriter</class>
+  <method>writeXlsStatistics</method>
+  <thread>1</thread>
+  <message>Excel file writing started</message>
+</record>
+<record>
+  <date>2023-10-09T17:56:01.918923Z</date>
+  <millis>1696874161918</millis>
+  <nanos>923000</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.excel.XmlWriteOperation</logger>
+  <level>INFO</level>
+  <class>org.example.excel.XmlWriteOperation</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling is started</message>
+</record>
+<record>
+  <date>2023-10-09T17:56:02.067961200Z</date>
+  <millis>1696874162067</millis>
+  <nanos>961200</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.excel.XmlWriteOperation</logger>
+  <level>INFO</level>
+  <class>org.example.excel.XmlWriteOperation</class>
+  <method>generateXmlReq</method>
+  <thread>1</thread>
+  <message>XML marshalling is finished successfully</message>
+</record>
+<record>
+  <date>2023-10-09T17:56:02.068965600Z</date>
+  <millis>1696874162068</millis>
+  <nanos>965600</nanos>
+  <sequence>8</sequence>
+  <logger>org.example.excel.JsonWriteOperation</logger>
+  <level>INFO</level>
+  <class>org.example.excel.JsonWriteOperation</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing operation started</message>
+</record>
+<record>
+  <date>2023-10-09T17:56:02.098667700Z</date>
+  <millis>1696874162098</millis>
+  <nanos>667700</nanos>
+  <sequence>9</sequence>
+  <logger>org.example.excel.JsonWriteOperation</logger>
+  <level>INFO</level>
+  <class>org.example.excel.JsonWriteOperation</class>
+  <method>writeJsonReq</method>
+  <thread>1</thread>
+  <message>JSON writing operation finished successfully</message>
+</record>
+<record>
+  <date>2023-10-09T17:56:02.098667700Z</date>
+  <millis>1696874162098</millis>
+  <nanos>667700</nanos>
+  <sequence>10</sequence>
+  <logger>org.example.Launch</logger>
+  <level>INFO</level>
+  <class>org.example.Launch</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Application finished</message>
+</record>
+</log>

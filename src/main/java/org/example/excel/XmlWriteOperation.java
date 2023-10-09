@@ -37,7 +37,7 @@ public class XmlWriteOperation {
             } catch (IOException ioEx) {
                 logger.log(Level.FINE, "Directory already created", ioEx);
             }
-            File requestFile = new File("xmlReqs/infoReq" + new Date().getTime() + ".xml");
+            File requestFile = new File("src/main/resources/xmlReqs/infoReq" + new Date().getTime() + ".xml");
 
             marshaller.marshal(fullInformation, requestFile);
         } catch (JAXBException jaxbEx) {

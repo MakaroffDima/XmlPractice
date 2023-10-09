@@ -41,7 +41,7 @@ public class JsonWriteOperation {
         String studentsJson = JsonUtil.writeListToJson(fullInformation.getStudentList());
         try {
             FileOutputStream outputStream =
-                    new FileOutputStream("jsonReqs/students" + fullInformation.getProcessDate().getTime() + ".json");
+                    new FileOutputStream("src/main/resources/jsonReqs/students" + fullInformation.getProcessDate().getTime() + ".json");
             outputStream.write(studentsJson.getBytes(StandardCharsets.UTF_8));
         } catch (IOException e) {
             logger.log(Level.SEVERE, "Students JSON writing operation failed", e);
@@ -52,7 +52,7 @@ public class JsonWriteOperation {
         String universitiesJson = JsonUtil.writeListToJson(fullInformation.getUniversityList());
         try {
             FileOutputStream outputStream =
-                    new FileOutputStream("jsonReqs/universities" + fullInformation.getProcessDate().getTime() + ".json");
+                    new FileOutputStream("src/main/resources/jsonReqs/universities" + fullInformation.getProcessDate().getTime() + ".json");
             outputStream.write(universitiesJson.getBytes(StandardCharsets.UTF_8));
         } catch (IOException e) {
             logger.log(Level.SEVERE, "Universities JSON writing operation failed", e);
@@ -63,7 +63,7 @@ public class JsonWriteOperation {
         String studentsJson = JsonUtil.writeListToJson(fullInformation.getStatisticsList());
         try {
             FileOutputStream outputStream =
-                    new FileOutputStream("jsonReqs/statistics" + fullInformation.getProcessDate().getTime() + ".json");
+                    new FileOutputStream("src/main/resources/jsonReqs/statistics" + fullInformation.getProcessDate().getTime() + ".json");
             outputStream.write(studentsJson.getBytes(StandardCharsets.UTF_8));
         } catch (IOException e) {
             logger.log(Level.SEVERE, "Statistics JSON writing operation failed", e);

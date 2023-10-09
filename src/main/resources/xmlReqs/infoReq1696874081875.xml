@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <studentsInfo>
+        <studentEntry>
+            <studentName>Петров П. А.</studentName>
+            <universityId>0001-high</universityId>
+            <courseNumb>1</courseNumb>
+            <avgScore>5.0</avgScore>
+        </studentEntry>
+        <studentEntry>
+            <studentName>Алексеев С. В.</studentName>
+            <universityId>0001-high</universityId>
+            <courseNumb>1</courseNumb>
+            <avgScore>5.0</avgScore>
+        </studentEntry>
+        <studentEntry>
+            <studentName>Соколов В. В.</studentName>
+            <universityId>0004-high</universityId>
+            <courseNumb>1</courseNumb>
+            <avgScore>4.8</avgScore>
+        </studentEntry>
+        <studentEntry>
+            <studentName>Иванов А. Г.</studentName>
+            <universityId>0001-high</universityId>
+            <courseNumb>3</courseNumb>
+            <avgScore>4.8</avgScore>
+        </studentEntry>
+        <studentEntry>
+            <studentName>Васильев В. П.</studentName>
+            <universityId>0001-high</universityId>
+            <courseNumb>4</courseNumb>
+            <avgScore>4.7</avgScore>
+        </studentEntry>
+        <studentEntry>
+            <studentName>Козлов М. В.</studentName>
+            <universityId>0002-high</universityId>
+            <courseNumb>2</courseNumb>
+            <avgScore>4.6</avgScore>
+        </studentEntry>
+        <studentEntry>
+            <studentName>Матвеева Е.В.</studentName>
+            <universityId>0010-high</universityId>
+            <courseNumb>4</courseNumb>
+            <avgScore>4.5</avgScore>
+        </studentEntry>
+        <studentEntry>
+            <studentName>Игнатьев М. М.</studentName>
+            <universityId>0003-high</universityId>
+            <courseNumb>4</courseNumb>
+            <avgScore>4.3</avgScore>
+        </studentEntry>
+        <studentEntry>
+            <studentName>Фёдоров А. И.</studentName>
+            <universityId>0002-high</universityId>
+            <courseNumb>3</courseNumb>
+            <avgScore>4.2</avgScore>
+        </studentEntry>
+        <studentEntry>
+            <studentName>Иванов И. А.</studentName>
+            <universityId>0002-high</universityId>
+            <courseNumb>2</courseNumb>
+            <avgScore>4.0</avgScore>
+        </studentEntry>
+        <studentEntry>
+            <studentName>Витальев В. А.</studentName>
+            <universityId>0001-high</universityId>
+            <courseNumb>2</courseNumb>
+            <avgScore>4.0</avgScore>
+        </studentEntry>
+        <studentEntry>
+            <studentName>Макаров Д.А.</studentName>
+            <universityId>0005-high</universityId>
+            <courseNumb>3</courseNumb>
+            <avgScore>4.0</avgScore>
+        </studentEntry>
+        <studentEntry>
+            <studentName>Сидоров Е. Г.</studentName>
+            <universityId>0004-high</universityId>
+            <courseNumb>2</courseNumb>
+            <avgScore>3.9</avgScore>
+        </studentEntry>
+    </studentsInfo>
+    <universitiesInfo>
+        <universityEntry>
+            <universityId>0011-high</universityId>
+            <universityName>Питерский Выдуманный Педагогический Университет</universityName>
+            <shortName>ПВПУ</shortName>
+            <YoF>1900</YoF>
+            <universityProfile>TEACHER</universityProfile>
+        </universityEntry>
+        <universityEntry>
+            <universityId>0013-high</universityId>
+            <universityName>НГЛУ им.Добролюбова</universityName>
+            <shortName>НГЛУ</shortName>
+            <YoF>1903</YoF>
+            <universityProfile>LINGUISTICS</universityProfile>
+        </universityEntry>
+        <universityEntry>
+            <universityId>0012-high</universityId>
+            <universityName>ННГУ им.Лобачевского</universityName>
+            <shortName>ННГУ</shortName>
+            <YoF>1905</YoF>
+            <universityProfile>PROGRAMMER</universityProfile>
+        </universityEntry>
+        <universityEntry>
+            <universityId>0010-high</universityId>
+            <universityName>Педагогический университет им.Козьмы Минина</universityName>
+            <shortName>НГПУ</shortName>
+            <YoF>1911</YoF>
+            <universityProfile>TEACHER</universityProfile>
+        </universityEntry>
+        <universityEntry>
+            <universityId>0009-high</universityId>
+            <universityName>Приволжский медицинский университет</universityName>
+            <shortName>ПИМУ</shortName>
+            <YoF>1920</YoF>
+            <universityProfile>MEDICINE</universityProfile>
+        </universityEntry>
+        <universityEntry>
+            <universityId>0005-high</universityId>
+            <universityName>Самарский Медицинский Институт</universityName>
+            <shortName>СМИ</shortName>
+            <YoF>1936</YoF>
+            <universityProfile>MEDICINE</universityProfile>
+        </universityEntry>
+        <universityEntry>
+            <universityId>0008-high</universityId>
+            <universityName>НГТУ им Р.Е. Алексеева</universityName>
+            <shortName>НГТУ</shortName>
+            <YoF>1950</YoF>
+            <universityProfile>PROGRAMMER</universityProfile>
+        </universityEntry>
+        <universityEntry>
+            <universityId>0003-high</universityId>
+            <universityName>Московский Государственный Медицинский Университет</universityName>
+            <shortName>МГМУ</shortName>
+            <YoF>1960</YoF>
+            <universityProfile>MEDICINE</universityProfile>
+        </universityEntry>
+        <universityEntry>
+            <universityId>0002-high</universityId>
+            <universityName>Московский Придуманный Институт</universityName>
+            <shortName>МПИ</shortName>
+            <YoF>1987</YoF>
+            <universityProfile>PHYSICS</universityProfile>
+        </universityEntry>
+        <universityEntry>
+            <universityId>0007-high</universityId>
+            <universityName>Казанский Университет Вычислений</universityName>
+            <shortName>КУВ</shortName>
+            <YoF>1989</YoF>
+            <universityProfile>MATHEMATICS</universityProfile>
+        </universityEntry>
+        <universityEntry>
+            <universityId>0001-high</universityId>
+            <universityName>Московский Выдуманный Университет</universityName>
+            <shortName>МВУ</shortName>
+            <YoF>1990</YoF>
+            <universityProfile>PHYSICS</universityProfile>
+        </universityEntry>
+        <universityEntry>
+            <universityId>0004-high</universityId>
+            <universityName>Тамбовский Университет Медицины</universityName>
+            <shortName>ТУМ</shortName>
+            <YoF>1995</YoF>
+            <universityProfile>MEDICINE</universityProfile>
+        </universityEntry>
+        <universityEntry>
+            <universityId>0006-high</universityId>
+            <universityName>Воронежский Литературно-Переводческий Университет</universityName>
+            <shortName>ВЛПУ</shortName>
+            <YoF>2003</YoF>
+            <universityProfile>LINGUISTICS</universityProfile>
+        </universityEntry>
+    </universitiesInfo>
+    <statisticalInfo>
+        <statisticsEntry>
+            <universityProfile>MEDICINE</universityProfile>
+            <avgScore>4.25</avgScore>
+            <numbOfStud>4</numbOfStud>
+            <numbOfUniv>4</numbOfUniv>
+            <UnivName>Приволжский медицинский университет;Самарский Медицинский Институт;Московский Государственный Медицинский Университет;Тамбовский Университет Медицины;</UnivName>
+        </statisticsEntry>
+        <statisticsEntry>
+            <universityProfile>PHYSICS</universityProfile>
+            <avgScore>4.54</avgScore>
+            <numbOfStud>8</numbOfStud>
+            <numbOfUniv>2</numbOfUniv>
+            <UnivName>Московский Придуманный Институт;Московский Выдуманный Университет;</UnivName>
+        </statisticsEntry>
+        <statisticsEntry>
+            <universityProfile>MATHEMATICS</universityProfile>
+            <avgScore>0.0</avgScore>
+            <numbOfStud>0</numbOfStud>
+            <numbOfUniv>1</numbOfUniv>
+            <UnivName>Казанский Университет Вычислений;</UnivName>
+        </statisticsEntry>
+        <statisticsEntry>
+            <universityProfile>LINGUISTICS</universityProfile>
+            <avgScore>0.0</avgScore>
+            <numbOfStud>0</numbOfStud>
+            <numbOfUniv>2</numbOfUniv>
+            <UnivName>НГЛУ им.Добролюбова;Воронежский Литературно-Переводческий Университет;</UnivName>
+        </statisticsEntry>
+        <statisticsEntry>
+            <universityProfile>PROGRAMMER</universityProfile>
+            <avgScore>0.0</avgScore>
+            <numbOfStud>0</numbOfStud>
+            <numbOfUniv>2</numbOfUniv>
+            <UnivName>ННГУ им.Лобачевского;НГТУ им Р.Е. Алексеева;</UnivName>
+        </statisticsEntry>
+        <statisticsEntry>
+            <universityProfile>TEACHER</universityProfile>
+            <avgScore>4.5</avgScore>
+            <numbOfStud>1</numbOfStud>
+            <numbOfUniv>2</numbOfUniv>
+            <UnivName>Питерский Выдуманный Педагогический Университет;Педагогический университет им.Козьмы Минина;</UnivName>
+        </statisticsEntry>
+    </statisticalInfo>
+    <processedAt>2023-10-09T20:54:41.736+03:00</processedAt>
+</root>

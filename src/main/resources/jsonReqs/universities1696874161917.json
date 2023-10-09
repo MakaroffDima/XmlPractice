@@ -1,0 +1,93 @@
+[
+  {
+    "universityId": "0011-high",
+    "universityFullName": "Питерский Выдуманный Педагогический Университет",
+    "universityShortName": "ПВПУ",
+    "YoF": 1900,
+    "mainProfile": "TEACHER"
+  },
+  {
+    "universityId": "0013-high",
+    "universityFullName": "НГЛУ им.Добролюбова",
+    "universityShortName": "НГЛУ",
+    "YoF": 1903,
+    "mainProfile": "LINGUISTICS"
+  },
+  {
+    "universityId": "0012-high",
+    "universityFullName": "ННГУ им.Лобачевского",
+    "universityShortName": "ННГУ",
+    "YoF": 1905,
+    "mainProfile": "PROGRAMMER"
+  },
+  {
+    "universityId": "0010-high",
+    "universityFullName": "Педагогический университет им.Козьмы Минина",
+    "universityShortName": "НГПУ",
+    "YoF": 1911,
+    "mainProfile": "TEACHER"
+  },
+  {
+    "universityId": "0009-high",
+    "universityFullName": "Приволжский медицинский университет",
+    "universityShortName": "ПИМУ",
+    "YoF": 1920,
+    "mainProfile": "MEDICINE"
+  },
+  {
+    "universityId": "0005-high",
+    "universityFullName": "Самарский Медицинский Институт",
+    "universityShortName": "СМИ",
+    "YoF": 1936,
+    "mainProfile": "MEDICINE"
+  },
+  {
+    "universityId": "0008-high",
+    "universityFullName": "НГТУ им Р.Е. Алексеева",
+    "universityShortName": "НГТУ",
+    "YoF": 1950,
+    "mainProfile": "PROGRAMMER"
+  },
+  {
+    "universityId": "0003-high",
+    "universityFullName": "Московский Государственный Медицинский Университет",
+    "universityShortName": "МГМУ",
+    "YoF": 1960,
+    "mainProfile": "MEDICINE"
+  },
+  {
+    "universityId": "0002-high",
+    "universityFullName": "Московский Придуманный Институт",
+    "universityShortName": "МПИ",
+    "YoF": 1987,
+    "mainProfile": "PHYSICS"
+  },
+  {
+    "universityId": "0007-high",
+    "universityFullName": "Казанский Университет Вычислений",
+    "universityShortName": "КУВ",
+    "YoF": 1989,
+    "mainProfile": "MATHEMATICS"
+  },
+  {
+    "universityId": "0001-high",
+    "universityFullName": "Московский Выдуманный Университет",
+    "universityShortName": "МВУ",
+    "YoF": 1990,
+    "mainProfile": "PHYSICS"
+  },
+  {
+    "universityId": "0004-high",
+    "universityFullName": "Тамбовский Университет Медицины",
+    "universityShortName": "ТУМ",
+    "YoF": 1995,
+    "mainProfile": "MEDICINE"
+  },
+  {
+    "universityId": "0006-high",
+    "universityFullName": "Воронежский Литературно-Переводческий Университет",
+    "universityShortName": "ВЛПУ",
+    "YoF": 2003,
+    "mainProfile": "LINGUISTICS"
+  }
+]
